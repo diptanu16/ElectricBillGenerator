@@ -30,19 +30,18 @@ public class App {
                 System.out.println("----------------------------------------");
                 if (consume <= 50) {
                     amount = consume * 4.17;
-                    System.out.println("Bill amount is Rs." + amount);
+                    System.out.println("Total Bill amount is Rs." + amount);
                 } else if (consume >= 51 && consume <= 150) {
                     amount = consume * 5.46;
-                    System.out.println("Bill amount is Rs." + amount);
+                    System.out.println("Total Bill amount is Rs." + amount);
                 } else if (consume >= 152 && consume <= 300) {
                     amount = consume * 6.16;
-                    System.out.println("Bill amount is Rs." + amount);
+                    System.out.println("Total Bill amount is Rs." + amount);
                 } else {
                     amount = consume * 7.20;
-                    System.out.println("Bill amount is Rs." + amount);
-
-
+                    System.out.println("Total Bill amount is Rs." + amount);
                 }
+                break;
             case 'B':
                 System.out.println("Enter Previous Reading: ");
                 previous = sc.nextInt();
@@ -53,13 +52,13 @@ public class App {
                 System.out.println("----------------------------------------");
                 if (consume <= 50) {
                     amount = consume * 5.31;
-                    System.out.println("Bill amount is Rs." + amount);
+                    System.out.println("Total Bill amount is Rs." + amount);
                 } else if (consume >= 51 && consume <= 150) {
                     amount = consume * 6.18;
-                    System.out.println("Bill amount is Rs." + amount);
+                    System.out.println("Total Bill amount is Rs." + amount);
                 } else {
                     amount = consume * 7.25;
-                    System.out.println("Bill amount is Rs." + amount);
+                    System.out.println("Total Bill amount is Rs."+ amount);
 
                 }
                 break;
