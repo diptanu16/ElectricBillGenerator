@@ -21,13 +21,13 @@ public class App {
         CustomerType = sc.next().charAt(0);
         switch (CustomerType) {
             case 'R':
-                System.out.println("Enter Previous Reading: ");
+                System.out.println(" Enter Previous Reading: ");
                 previous = sc.nextDouble();
-                System.out.println("Enter Present Reading:");
+                System.out.println(" Enter Present Reading:");
                 present = sc.nextDouble();
                 consume = present - previous;
-                System.out.println("Current consumed in kilowatt(Residential): " + consume);
-                System.out.println("----------------------------------------");
+                System.out.println(" Current consumed in kilowatt(Residential): " + consume);
+                System.out.println("<<<<<<<<<<<-------->>>>>>>>>");
                 if (consume <= 50) {
                     amount = consume * 4.17;
                     System.out.println("Total Bill amount is Rs." + amount);
